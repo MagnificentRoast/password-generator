@@ -12,4 +12,4 @@ This is not a secure password generator, do NOT use it for secure programs, this
 
 Much of this code was not created by me only, I had help from several people, who I cannot thank enough. Any extra code you may see in the source code was broken code, which got refined but never deleted. If you wish to download the source code and you try fiddling with the commented out code, I cannot be responsible for it being broken on your end
 
-![screenshot](assets/javascript-completion.png)
+![screenshot](![screenshot](assets/images/screenshot-readme.png)
