@@ -1,3 +1,7 @@
+---
+permalink: /index.html
+---
+
 ## WELCOME TO MY PASSWORD GENERATOR!!
 
 Here you will find my password generator, the functionality was provided by a combination of my own code and some help from others both in the class and on the tutoring side of it.
