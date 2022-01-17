@@ -119,7 +119,7 @@ if(passwordOptions.lowercase){
  if(passwordOptions.numbers, passwordOptions.lowercase, passwordOptions.special){
    possibleChars = possibleChars.concat(numbersArr, lowerCaseArr, specialCharsArr)
    chosenChars.push(random(possibleChars))
- }
+ };
 
  if(passwordOptions.uppercase, passwordOptions.lowercase, passwordOptions.special){
    possibleChars = possibleChars.concat(upperCaseArr, lowerCaseArr, specialCharsArr)
@@ -149,37 +149,6 @@ console.log(chosenChars)
 }
 // Write password to the #password input
 function writePassword() {
-
-
-
-  // var userInput = window.prompt(
-  //   "What kind of characters do you want in your password? Please select from the following options:\n1 for uppercase\n2 for lowercase\n3 for numeric\n4 for special\n5 for all of the above"
-  // );
-
-  // if (usereInput === 1) {
-  //   console.log("User picked 1");
-  // } else if (userInput === 2) {
-  //   console.log("User picked 2");
-  // } else if (userInput === 3) {
-  //   console.log("User picked 3");
-  // } else if (userInput === 4) {
-  //   console.log("User picked 4");
-  // } else {
-  //   consol.log("Please pick a valid option.");
-  // }
-
-  // var prompt = window.alert("Welcome to the password generator, please fill in these prompts to generate your password!");
-  // var chooseNow = window.alert("Choose your password");
-  // var characterCount = window.prompt("How long do you want your password to be? Must be between 8 and 128");
-  // if (characterCount >= 8 || characterCount <=128) {
-  //   upperCase();
-  // } else {
-  //   window.alert("choose a number between 8-128!")
-  //   characterCount();
-  // }
-  // var upperCase = window.prompt("Would you like to use lowercase, uppercase, or both? Enter 'lowercase', 'uppercase', or 'both' to make your selection.");
-  // var numeric = window.prompt("Would you like to use numeric data? Enter 'YES', or 'NO' here.");
-  // var specialCharacters = window.prompt("Would you like to use special characters? Please select 'YES' or 'NO' to make your selection.");
 
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
