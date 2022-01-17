@@ -14,6 +14,13 @@ It's simple, really! All you do is click "Generate Password" and you'll see a fe
 
 This is not a secure password generator, do NOT use it for secure programs, this was to show that randomization in JavaScript is possible. I am not responsible for if you use my generator and your password gets compromized! You have been warned!
 
-Much of this code was not created by me only, I had help from several people, who I cannot thank enough. Any extra code you may see in the source code was broken code, which got refined but never deleted. If you wish to download the source code and you try fiddling with the commented out code, I cannot be responsible for it being broken on your end
+Much of this code was not created by me only, I had help from several people, who I cannot thank enough. Any extra code you may see in the source code was broken code, which got refined but never deleted. If you wish to download the source code and you try fiddling with the commented out code, I cannot be responsible for it being broken on your end.
+
+## NOTICE
+
+So, apparently, this is the page that appears in github pages, I have tried multiple things, but nothing worked. Here is the link to my repository, from there, you can clone and test the code for yourself.
+
+Link: https://github.com/MagnificentRoast/password-generator
 
 ![screenshot](assets/images/screenshot-readme.png)
+.
